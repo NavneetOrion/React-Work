@@ -4,6 +4,7 @@ import App from './App';
 import AboutPage  from './AboutPage';
 import Image from './Image';
 import Embedding from './Embedding';
+import DisplayingData from './DisplayingData';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,6 +14,7 @@ root.render(
     <AboutPage/>
     <Embedding/>
     <Image/>
+    <DisplayingData/>
     
   </>
     
