@@ -5,6 +5,7 @@ import AboutPage  from './AboutPage';
 import Image from './Image';
 import Embedding from './Embedding';
 import DisplayingData from './DisplayingData';
+import Condition from './Condition';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +16,7 @@ root.render(
     <Embedding/>
     <Image/>
     <DisplayingData/>
+    <Condition/>
     
   </>
     
