@@ -6,6 +6,7 @@ import Image from './Image';
 import Embedding from './Embedding';
 import DisplayingData from './DisplayingData';
 import Condition from './Condition';
+import Tick from './Tick';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
     <Image/>
     <DisplayingData/>
     <Condition/>
+    <Tick/>
     
   </>
     
