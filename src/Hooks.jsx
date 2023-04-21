@@ -17,6 +17,7 @@ const [name,setName] = useState("");
         document.getElementById("in-1").value="";
         setName("");
     }
+    
 
     return(
         <>
