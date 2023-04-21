@@ -8,7 +8,8 @@ import DisplayingData from './DisplayingData';
 import Condition from './Condition';
 import Tick from './Tick';
 import Props from './Props';
-
+import Events from './Events';
+import Hooks from './Hooks';
 
 const comment = {
   date: new Date().toDateString(),
@@ -33,6 +34,8 @@ root.render(
       text={comment.text}
       author = {comment.author}
     />
+    <Events/>
+    <Hooks/>
     
   </>
     
