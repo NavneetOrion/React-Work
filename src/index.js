@@ -10,6 +10,8 @@ import Tick from './Tick';
 import Props from './Props';
 import Events from './Events';
 import Hooks from './Hooks';
+import Forms from './Forms';
+import NewForm from './NewForm';
 
 const comment = {
   date: new Date().toDateString(),
@@ -25,17 +27,21 @@ root.render(
   <>
     <App />
     <AboutPage />
-    <Embedding/>
-    <Image/>
+    <Embedding />
+    <Image />
     <DisplayingData/>
     <Condition/>
     <Tick/>
-    <Props date={comment.date}
+    <Props  
+    date={comment.date}
       text={comment.text}
       author = {comment.author}
     />
     <Events/>
     <Hooks/>
+    <Forms/>
+
+    <NewForm/>
     
   </>
     

@@ -25,8 +25,43 @@
 
 .con1{
     margin: auto;
-    background-color:#d1c3f5;
+    background-color:#4d1ec4;
     height: 40vh;
     width: 40%;
 
+}
+
+.Forms101{
+    margin: auto;
+    background-color:#d1c3f5;
+    height: 65vh;
+    width: 65%;
+}
+
+.component1{
+    margin: auto;
+    background-color: #d1c3f5;
+    height:29vh;
+    width: 25%;
+}
+
+
+
+#Hello{
+    background-image: linear-gradient(to right,#1fb11c,#2b37c0);
+}
+
+.Forms102{
+    margin: auto;
+    background-color:#3fa78c;
+    height: 65vh;
+    width: 65%;
+}
+
+.another123{
+    margin:auto;
+    padding-left: 5px;
+    height:30vh;
+    width:40%;
+    background-color: #44a177;
 }

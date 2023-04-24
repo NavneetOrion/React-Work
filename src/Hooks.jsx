@@ -16,6 +16,7 @@ const [name,setName] = useState("");
     {
         document.getElementById("in-1").value="";
         setName("");
+        setHeadingText("Welcome");
     }
     
 
@@ -24,7 +25,7 @@ const [name,setName] = useState("");
         <div className='con1'>
         <h1>Forms with Hooks</h1>
             <h1>{headingText} {name}</h1>
-            <input id="in-1"onChange={InputHandleEvent} type="text" placeholder="Enter your name"></input><br/><br/>
+            <input id="in-1" onChange={InputHandleEvent} type="text" placeholder="Enter your name"></input><br/><br/>
             <button onClick={ResetAllThings} type="reset" value="Reset">Reset</button>
             <button onClick={HandleEvent}>Submit</button>
             </div>
