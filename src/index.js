@@ -10,6 +10,7 @@ import Tick from './Tick';
 import Props from './Props';
 import Events from './Events';
 import Hooks from './Hooks';
+import Forms from './Forms';
 
 const comment = {
   date: new Date().toDateString(),
@@ -37,6 +38,7 @@ root.render(
     />
     <Events/>
     <Hooks/>
+    <Forms/>
     
   </>
     
