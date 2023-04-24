@@ -11,6 +11,7 @@ import Props from './Props';
 import Events from './Events';
 import Hooks from './Hooks';
 import Forms from './Forms';
+import NewForm from './NewForm';
 
 const comment = {
   date: new Date().toDateString(),
@@ -39,6 +40,8 @@ root.render(
     <Events/>
     <Hooks/>
     <Forms/>
+
+    <NewForm/>
     
   </>
     

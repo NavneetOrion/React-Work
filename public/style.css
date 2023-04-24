@@ -45,6 +45,23 @@
     width: 25%;
 }
 
+
+
 #Hello{
     background-image: linear-gradient(to right,#1fb11c,#2b37c0);
+}
+
+.Forms102{
+    margin: auto;
+    background-color:#3fa78c;
+    height: 65vh;
+    width: 65%;
+}
+
+.another123{
+    margin:auto;
+    padding-left: 5px;
+    height:30vh;
+    width:40%;
+    background-color: #44a177;
 }
