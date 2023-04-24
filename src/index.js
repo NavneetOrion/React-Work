@@ -25,12 +25,13 @@ root.render(
   <>
     <App />
     <AboutPage />
-    <Embedding/>
-    <Image/>
+    <Embedding />
+    <Image />
     <DisplayingData/>
     <Condition/>
     <Tick/>
-    <Props date={comment.date}
+    <Props  
+    date={comment.date}
       text={comment.text}
       author = {comment.author}
     />
