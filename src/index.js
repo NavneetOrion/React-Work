@@ -12,6 +12,7 @@ import Events from './Events';
 import Hooks from './Hooks';
 import Forms from './Forms';
 import NewForm from './NewForm';
+import Counter from './Counter';
 
 const comment = {
   date: new Date().toDateString(),
@@ -42,6 +43,8 @@ root.render(
     <Forms/>
 
     <NewForm/>
+
+    <Counter/>
     
   </>
     
