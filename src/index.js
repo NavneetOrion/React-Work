@@ -13,6 +13,7 @@ import Hooks from './Hooks';
 import Forms from './Forms';
 import NewForm from './NewForm';
 import Counter from './Counter';
+import Temp from './Temp';
 
 const comment = {
   date: new Date().toDateString(),
@@ -41,10 +42,9 @@ root.render(
     <Events/>
     <Hooks/>
     <Forms/>
-
     <NewForm/>
-
     <Counter/>
+    <Temp/>
     
   </>
     
