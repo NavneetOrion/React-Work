@@ -14,6 +14,9 @@ import Forms from './Forms';
 import NewForm from './NewForm';
 import Counter from './Counter';
 import Temp from './Temp';
+import Containment from './Containment';
+import Contact from './Contact';
+import Chat from './Chat';
 
 const comment = {
   date: new Date().toDateString(),
@@ -45,6 +48,10 @@ root.render(
     <NewForm/>
     <Counter/>
     <Temp/>
+    <Containment
+      left={<Contact/>}
+      right={<Chat/>}
+    />
     
   </>
     
