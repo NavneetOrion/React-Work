@@ -17,6 +17,9 @@ import Temp from './Temp';
 import Containment from './Containment';
 import Contact from './Contact';
 import Chat from './Chat';
+import App2 from './App2';
+import {BrowserRouter} from 'react-router-dom';
+
 
 const comment = {
   date: new Date().toDateString(),
@@ -52,6 +55,10 @@ root.render(
       left={<Contact/>}
       right={<Chat/>}
     />
+
+    <BrowserRouter>
+    <App2/>
+    </BrowserRouter>
     
   </>
     
