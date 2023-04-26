@@ -9,10 +9,9 @@ const App2 = () =>{
             <Route path="/" Component={Abbout}/>
             <Route path="/contact" Component={CContact}/>
         </Routes>
-
-
-       
     </>
+    
+
     
 
 }
