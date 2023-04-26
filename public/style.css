@@ -74,3 +74,21 @@
     box-shadow: 4px 4px 4px;
 
 }
+
+.Contact{
+    width: 500px;
+    height:386px;
+    background-color: #189286;
+    display: inline-block;
+}
+
+.Chat{
+    width: 1337px;
+    height:386px;
+    background-color: #e2c824;
+    display: inline-block;
+}
+
+.Containment{
+    display: flex;
+}
