@@ -19,6 +19,7 @@ import Contact from './Contact';
 import Chat from './Chat';
 import App2 from './App2';
 import {BrowserRouter} from 'react-router-dom';
+import Access from './Access';
 
 
 const comment = {
@@ -59,6 +60,8 @@ root.render(
     <BrowserRouter>
     <App2/>
     </BrowserRouter>
+
+    <Access/>
     
   </>
     
