@@ -2,7 +2,10 @@ import React from 'react';
 
 function Access(){
     function clickFun(){
-        alert("Welcome to Accessability!!")
+        
+        document.getElementById("google").focus();
+        
+
     }
     return(
         <>
@@ -21,6 +24,7 @@ function Access(){
         </tbody>
         </table>
         <br></br>
+        <a id="google" href='https://www.google.com'>Google</a>
         <button onClick={clickFun}>Click Me!!+</button>
         </>
     )

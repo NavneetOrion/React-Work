@@ -93,3 +93,8 @@
     display: flex;
 }
 
+a:hover,
+a:active,
+a:focus{
+    color: #d1c3f5;
+}
