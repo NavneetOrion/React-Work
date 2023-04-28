@@ -22,6 +22,8 @@ import {BrowserRouter} from 'react-router-dom';
 import Access from './Access';
 import UseEffect2 from './UseEffect2';
 
+import UseEffect3 from './UseEffect3';
+
 
 const comment = {
   date: new Date().toDateString(),
@@ -65,6 +67,8 @@ root.render(
     <Access/>
 
     <UseEffect2/>
+
+    <UseEffect3/>
 
 
     
