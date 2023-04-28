@@ -20,6 +20,7 @@ import Chat from './Chat';
 import App2 from './App2';
 import {BrowserRouter} from 'react-router-dom';
 import Access from './Access';
+import UseEffect2 from './UseEffect2';
 
 
 const comment = {
@@ -62,6 +63,11 @@ root.render(
     </BrowserRouter>
 
     <Access/>
+
+    <UseEffect2/>
+
+
+    
     
   </>
     
