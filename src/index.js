@@ -23,6 +23,7 @@ import Access from './Access';
 import UseEffect2 from './UseEffect2';
 
 import UseEffect3 from './UseEffect3';
+import UseEffect4 from './UseEffect4';
 
 
 const comment = {
@@ -65,10 +66,9 @@ root.render(
     </BrowserRouter>
 
     <Access/>
-
     <UseEffect2/>
-
     <UseEffect3/>
+    <UseEffect4/>
 
 
     
