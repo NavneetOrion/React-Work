@@ -24,6 +24,8 @@ import UseEffect2 from './UseEffect2';
 
 import UseEffect3 from './UseEffect3';
 import UseEffect4 from './UseEffect4';
+import FetchAPI from './FetchAPI';
+import FetchApi2 from './FetchApi2';
 
 
 const comment = {
@@ -69,7 +71,8 @@ root.render(
     <UseEffect2/>
     <UseEffect3/>
     <UseEffect4/>
-
+    <FetchAPI/>
+    <FetchApi2/>
 
     
     
