@@ -5,6 +5,7 @@ const data = createContext();
 const data1 = createContext();
 
 
+
 const UseContext = () => {
     const name="Navneet";
     const gender = "Male";
