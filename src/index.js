@@ -20,6 +20,15 @@ import Chat from './Chat';
 import App2 from './App2';
 import {BrowserRouter} from 'react-router-dom';
 import Access from './Access';
+import UseEffect2 from './UseEffect2';
+
+import UseEffect3 from './UseEffect3';
+import UseEffect4 from './UseEffect4';
+import FetchAPI from './FetchAPI';
+import FetchApi2 from './FetchApi2';
+import UseContext from './UseContext';
+import UseRef from './UseRef';
+import UseMemo from './UseMemo';
 
 
 const comment = {
@@ -62,6 +71,16 @@ root.render(
     </BrowserRouter>
 
     <Access/>
+    <UseEffect2/>
+    <UseEffect3/>
+    <UseEffect4/>
+    <FetchAPI/>
+    <FetchApi2/>
+
+    <UseContext/>
+    <UseRef/>
+    <UseMemo/>
+    
     
   </>
     
