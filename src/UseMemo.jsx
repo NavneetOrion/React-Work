@@ -9,6 +9,7 @@ const UseMemo = () => {
     return add*5
   },[add])
 
+  
   return (
     <div className='Memo'>
     <h1>Learning UseMemo</h1>
