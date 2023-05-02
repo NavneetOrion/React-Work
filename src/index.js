@@ -27,6 +27,7 @@ import UseEffect4 from './UseEffect4';
 import FetchAPI from './FetchAPI';
 import FetchApi2 from './FetchApi2';
 import UseContext from './UseContext';
+import UseRef from './UseRef';
 
 
 const comment = {
@@ -76,6 +77,7 @@ root.render(
     <FetchApi2/>
 
     <UseContext/>
+    <UseRef/>
 
     
     
