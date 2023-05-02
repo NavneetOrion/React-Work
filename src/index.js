@@ -28,6 +28,7 @@ import FetchAPI from './FetchAPI';
 import FetchApi2 from './FetchApi2';
 import UseContext from './UseContext';
 import UseRef from './UseRef';
+import UseMemo from './UseMemo';
 
 
 const comment = {
@@ -78,7 +79,7 @@ root.render(
 
     <UseContext/>
     <UseRef/>
-
+    <UseMemo/>
     
     
   </>
