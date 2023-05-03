@@ -123,3 +123,11 @@ a:focus{
     background-color: #207576;
 
 }
+
+.watch{
+    margin:auto;
+    padding-left: 5px;
+    height:40vh;
+    width:40%;
+    background-color: #182796;
+}

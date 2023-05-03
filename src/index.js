@@ -29,6 +29,8 @@ import FetchApi2 from './FetchApi2';
 import UseContext from './UseContext';
 import UseRef from './UseRef';
 import UseMemo from './UseMemo';
+import UseRef2 from './UseRef2';
+import Stopwatch from './Stopwatch';
 
 
 const comment = {
@@ -80,6 +82,8 @@ root.render(
     <UseContext/>
     <UseRef/>
     <UseMemo/>
+    <UseRef2/>
+    <Stopwatch/>
     
     
   </>

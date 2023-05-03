@@ -18,7 +18,7 @@ const UseMemo = () => {
     <h3>Multiply:- {Multiply}</h3><br/>
     <button onClick={()=>setadd(add+1)}>Addition</button><br/>
     <span>{add}</span><br/>
-    <button onClick={()=>setsub(sub -1)}>Subtraction</button><br/>
+    <button onClick={()=>setsub(sub-1)}>Subtraction</button><br/>
     <span>{sub}</span>
     </div>
   )
