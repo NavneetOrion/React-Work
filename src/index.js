@@ -33,6 +33,7 @@ import UseRef2 from './UseRef2';
 import Stopwatch from './Stopwatch';
 import UseReducer from './UseReducer';
 import AgeChecker from './AgeChecker';
+import UseCallback from './UseCallback';
 
 
 const comment = {
@@ -88,6 +89,7 @@ root.render(
     <Stopwatch/>
     <UseReducer/>
     <AgeChecker/>
+    <UseCallback/>
     
   </>
     

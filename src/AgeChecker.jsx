@@ -6,7 +6,15 @@ const AgeChecker = () => {
     switch (action.type) {
       case "Incre":
         state.age = state.age + action.payload.age;
-        if (state.age < 18) {
+        if(state.age <0)
+        {
+          return{
+            age: 0,
+            type: "Please enter your valid Age",
+          }
+
+        }
+        else if (state.age < 18) {
           return {
             age: state.age,
             type: "Child",
@@ -16,16 +24,22 @@ const AgeChecker = () => {
             age: state.age,
             type: "Adult",
           };
-        } else if (state.age < 1) {
-          alert("Please enter valid age!!");
-        }
+        } 
         else
         {
           return
         }
       case "Decre":
         state.age = state.age - action.payload.age;
-        if (state.age >= 18) {
+        if(state.age <0)
+        {
+          return{
+            age: 0,
+            type: "Please enter your valid Age",
+          }
+
+        }
+        else if (state.age >= 18) {
           return {
             age: state.age,
             type: "Adult",
@@ -35,13 +49,10 @@ const AgeChecker = () => {
             age: state.age,
             type: "Child",
           };
-        } else if (state.age < 1) {
-          alert("Please enter valid age!!");
+        } else{
+          return 
         }
-        else
-        {
-          return
-        }
+       
       default:
         return state;
     }
