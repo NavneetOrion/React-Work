@@ -31,6 +31,9 @@ import UseRef from './UseRef';
 import UseMemo from './UseMemo';
 import UseRef2 from './UseRef2';
 import Stopwatch from './Stopwatch';
+import UseReducer from './UseReducer';
+import AgeChecker from './AgeChecker';
+import UseCallback from './UseCallback';
 
 
 const comment = {
@@ -84,7 +87,9 @@ root.render(
     <UseMemo/>
     <UseRef2/>
     <Stopwatch/>
-    
+    <UseReducer/>
+    <AgeChecker/>
+    <UseCallback/>
     
   </>
     

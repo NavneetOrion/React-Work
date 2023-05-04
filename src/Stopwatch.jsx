@@ -9,7 +9,7 @@ const Stopwatch = () => {
     setstartTime(Date.now())
     setNow(Date.now())
 
-    clearInterval(refInterval.current);
+    //  clearInterval(refInterval.current);
     refInterval.current = setInterval(()=>{
       setNow(Date.now())
     },10);
