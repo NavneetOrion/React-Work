@@ -1,41 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import AboutPage  from './AboutPage';
-import Image from './Image';
-import Embedding from './Embedding';
-import DisplayingData from './DisplayingData';
-import Condition from './Condition';
-import Tick from './Tick';
-import Props from './Props';
-import Events from './Events';
-import Hooks from './Hooks';
-import Forms from './Forms';
-import NewForm from './NewForm';
-import Counter from './Counter';
-import Temp from './Temp';
-import Containment from './Containment';
-import Contact from './Contact';
-import Chat from './Chat';
-import App2 from './App2';
-import {BrowserRouter} from 'react-router-dom';
-import Access from './Access';
-import UseEffect2 from './UseEffect2';
-
-import UseEffect3 from './UseEffect3';
-import UseEffect4 from './UseEffect4';
-import FetchAPI from './FetchAPI';
-import UseContext from './UseContext';
-import UseRef from './UseRef';
-import UseMemo from './UseMemo';
-import UseRef2 from './UseRef2';
-import Stopwatch from './Stopwatch';
-import UseReducer from './UseReducer';
-import AgeChecker from './AgeChecker';
-import UseCallback from './UseCallback';
 import RouterPro from './RouterPro';
-
-
+import Header from './Header';
 
 const comment = {
   date: new Date().toDateString(),
@@ -49,53 +15,26 @@ const comment = {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <App />
-    <AboutPage />
-    <Embedding />
-    <Image />
-    <DisplayingData/>
-    <Condition/>
-    <Tick/>
-    <Props  
+    {/* <Props  
     date={comment.date}
       text={comment.text}
       author = {comment.author}
-    />
-    <Events/>
+    /> */}
+    
     {/* <Hooks/> */}
-    <Forms/>
-    <NewForm/>
-    <Counter/>
-    <Temp/>
-    <Containment
+
+    {/* <Containment
       left={<Contact/>}
       right={<Chat/>}
-    />
+    /> */}
 
-    <BrowserRouter>
+    {/* <BrowserRouter>
     <App2/>
-    </BrowserRouter>
-
-    <Access/>
-    <UseEffect2/>
-    <UseEffect3/>
-    <UseEffect4/>
-    <FetchAPI/>
-    {/* <FetchApi2/> */}
-
-    <UseContext/>
-    <UseRef/>
-    <UseMemo/>
-    <UseRef2/>
-    {/* <Stopwatch/> */}
-    <UseReducer/>
-    <AgeChecker/>
-    <UseCallback/>
-    <RouterPro/>
-
-
-
+    </BrowserRouter> */}
     
+    {/* <FetchApi2/> */}
+    <Header/>
+    <RouterPro/>
     
   </>
     
