@@ -33,6 +33,8 @@ import Stopwatch from './Stopwatch';
 import UseReducer from './UseReducer';
 import AgeChecker from './AgeChecker';
 import UseCallback from './UseCallback';
+import RouterPro from './RouterPro';
+
 
 
 const comment = {
@@ -60,7 +62,7 @@ root.render(
       author = {comment.author}
     />
     <Events/>
-    <Hooks/>
+    {/* <Hooks/> */}
     <Forms/>
     <NewForm/>
     <Counter/>
@@ -85,10 +87,15 @@ root.render(
     <UseRef/>
     <UseMemo/>
     <UseRef2/>
-    <Stopwatch/>
+    {/* <Stopwatch/> */}
     <UseReducer/>
     <AgeChecker/>
     <UseCallback/>
+    <RouterPro/>
+
+
+
+    
     
   </>
     
