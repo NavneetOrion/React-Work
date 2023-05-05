@@ -8,6 +8,7 @@ const App2 = () =>{
         <Routes>
             <Route path="/" Component={Abbout}/>
             <Route path="/contact" Component={CContact}/>
+            
         </Routes>
     </>
     
